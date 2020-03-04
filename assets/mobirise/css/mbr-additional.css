@@ -711,39 +711,57 @@ section.lazy-placeholder:after {
   opacity: 0.3;
 }
 .cid-qTkA127IK8 {
-  background-image: url("../../../assets/images/mbr-1920x1440.jpg");
+  background-image: url("../../../assets/images/mbr.jpg");
 }
-.cid-rO8nYTPP3e {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #efefef;
-}
-.cid-rO8nYTPP3e P {
-  color: #767676;
-}
-.cid-rBM9e2dbga {
-  background-image: url("../../../assets/images/mbr-1-1920x1440.jpg");
-}
-.cid-rBM9e2dbga .form-control,
-.cid-rBM9e2dbga .form-control:focus {
+.cid-rSiqQFcEfA {
+  padding-top: 45px;
+  padding-bottom: 45px;
   background: #ffffff;
-  border: 1px solid #ffffff;
 }
-.cid-rBM9e2dbga .form-container {
-  transition: all .2s;
-  border: 1px solid #ffffff;
-  padding: 1rem;
+.cid-rSiqQFcEfA .images-container.container-fluid {
+  padding: 0;
 }
-.cid-rBM9e2dbga textarea.form-control {
-  min-height: 188px;
+.cid-rSiqQFcEfA .media-container-row {
+  margin: 0 auto;
+  align-items: stretch;
+  -webkit-align-items: stretch;
+  width: 100% !important;
 }
-.cid-rBM9e2dbga .input-group-btn {
+.cid-rSiqQFcEfA .media-container-row .img-item {
+  display: -webkit-flex;
+  flex-direction: column;
   justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  -webkit-flex-direction: column;
   -webkit-justify-content: center;
 }
-@media (min-width: 768px) {
-  .cid-rBM9e2dbga .content-container {
-    padding-right: 5rem;
+.cid-rSiqQFcEfA .media-container-row .img-item img {
+  width: 100%;
+  min-height: 1px;
+}
+.cid-rSiqQFcEfA .media-container-row .img-item .img-caption {
+  background: #ffffff;
+  z-index: 2;
+  padding: 1rem 1rem;
+  word-break: break-word;
+}
+.cid-rSiqQFcEfA .media-container-row .img-item .img-caption p {
+  margin-bottom: 0;
+}
+.cid-rSiqQFcEfA .media-container-row .img-item.item1 {
+  padding: 0 2rem 0 0;
+}
+@media (max-width: 992px) {
+  .cid-rSiqQFcEfA .img-item {
+    width: 100% !important;
+  }
+  .cid-rSiqQFcEfA .img-item.item1 {
+    width: 100%;
+    flex-basis: initial !important;
+    padding: 0 0 2rem 0 !important;
+    -webkit-flex-basis: initial !important;
   }
 }
 .cid-qTkAaeaxX5 {
